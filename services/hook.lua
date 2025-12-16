@@ -8,8 +8,8 @@ OldNamecall = hookmetamethod(game, "__namecall", function(self, ...)
     if self == TeleportService and method == "TeleportToPlaceInstance" then
         local args = {...}
         local PlaceID = args[1]
-        local JobID   = args[2]
-        local Player  = args[3]
+        local JobID = args[2]
+        local Player = args[3]
 
         print("Teleport to ", JobID)
     end
