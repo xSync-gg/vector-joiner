@@ -11,7 +11,7 @@ OldNamecall = hookmetamethod(game, "__namecall", function(self, ...)
         local JobID = args[2]
         local Player = args[3]
 
-        print("Teleport to ", JobID)
+        print("Teleport to", JobID)
     end
 
     return OldNamecall(self, ...)
